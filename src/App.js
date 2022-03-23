@@ -9,7 +9,7 @@ function App() {
   // deals with each single color
   const [color, setColor] = useState('')
   // keeps lists of all the shades of above color
-  const [colorList, setColorList] = useState(new Values('#a52a2a').all(1))
+  const [colorList, setColorList] = useState(new Values('#00ffff').all(1))
 
   const handleChange = (e) => {
     setColor(e.target.value)
